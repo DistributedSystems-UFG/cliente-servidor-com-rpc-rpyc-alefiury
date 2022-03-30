@@ -12,13 +12,13 @@ def main() -> None:
 
     # Operations
     if operation == 'Concat':
-        response =  conn.root.concat(first_string, second_string)
+        response =  conn.concat(first_string, second_string)
         print(f"Concatenated strings: {response}")
     elif operation == 'Distance':
-        response =  conn.root.levenshtein_dist(first_string, second_string)
+        response =  conn.levenshtein_dist(first_string, second_string)
         print(f"Levenshtein Distance: {response}")
     elif operation == 'Equal':
-        response =  conn.root.equal(first_string, second_string)
+        response =  conn.equal(first_string, second_string)
         if response:
             response = "Strings are equal"
         else:

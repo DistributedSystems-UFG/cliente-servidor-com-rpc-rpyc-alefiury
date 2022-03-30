@@ -1,7 +1,5 @@
 # String Client-Server RPC
 
-<hr/>
-
 - [Introdução](#Introdução)
 - [Dependencias](#Dependências)
 - [Vídeo Demonstrativo](#Vídeo-Demonstrativo)

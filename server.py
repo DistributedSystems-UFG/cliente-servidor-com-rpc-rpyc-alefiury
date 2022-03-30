@@ -20,7 +20,7 @@ class Server(rpyc.Service):
 
 if __name__ == "__main__":
     server = ThreadedServer(
-        service=Server,
+        service=Server(),
         port=PORT
     )
     server.start()

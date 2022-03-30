@@ -20,9 +20,9 @@ def main() -> None:
     elif operation == 'Equal':
         response =  conn.root.equal(first_string, second_string)
         if response:
-            response = "Strings are equal"
+            print("Strings are equal")
         else:
-            response = "Strings are not equal"
+            print("Strings are not equal")
 
     else:
         response = "Operation does not exist"

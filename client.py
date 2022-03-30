@@ -15,7 +15,7 @@ def main() -> None:
         response =  conn.root.concat(first_string, second_string)
         print(f"Concatenated strings: {response}")
     elif operation == 'Distance':
-        response =  conn.root.levenshtein_dist(first_string, second_string)
+        response =  conn.root.levenshtein(first_string, second_string)
         print(f"Levenshtein Distance: {response}")
     elif operation == 'Equal':
         response =  conn.root.equal(first_string, second_string)
